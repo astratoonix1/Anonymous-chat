@@ -1,0 +1,16 @@
+{
+  "name": "signal-chat",
+  "version": "1.0.0",
+  "description": "Unique-ID based group + private chat with Telegram forwarding",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0"
+  }
+}
